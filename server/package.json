@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "json-server --watch videos.json --port 9000 --middlewares ./middleware/random.js"
+    "dev": "json-server --watch videos.json --port 9000 --middlewares ./middleware/random.js"
   },
   "dependencies": {
     "json-server": "^0.17.1",
